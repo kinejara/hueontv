@@ -1,6 +1,0 @@
-framework module Pods_My_hue_tv {
-  umbrella header "Pods-My hue tv-umbrella.h"
-
-  export *
-  module * { export * }
-}
