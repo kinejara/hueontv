@@ -1,495 +1,1086 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		EE24C5791CF18AEF00E4FE3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C5781CF18AEF00E4FE3E /* AppDelegate.swift */; };
-		EE24C57B1CF18AF000E4FE3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C57A1CF18AF000E4FE3E /* ViewController.swift */; };
-		EE24C57E1CF18AF000E4FE3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE24C57C1CF18AF000E4FE3E /* Main.storyboard */; };
-		EE24C5801CF18AF000E4FE3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE24C57F1CF18AF000E4FE3E /* Assets.xcassets */; };
-		EE24C58B1CF18AF000E4FE3E /* My_hue_tvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C58A1CF18AF000E4FE3E /* My_hue_tvTests.swift */; };
-		EE24C5961CF18AF000E4FE3E /* My_hue_tvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24C5951CF18AF000E4FE3E /* My_hue_tvUITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EE24C5871CF18AF000E4FE3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE24C56D1CF18AEF00E4FE3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE24C5741CF18AEF00E4FE3E;
-			remoteInfo = "My hue tv";
-		};
-		EE24C5921CF18AF000E4FE3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE24C56D1CF18AEF00E4FE3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE24C5741CF18AEF00E4FE3E;
-			remoteInfo = "My hue tv";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		EE24C5751CF18AEF00E4FE3E /* My hue tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My hue tv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE24C5781CF18AEF00E4FE3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE24C57A1CF18AF000E4FE3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EE24C57D1CF18AF000E4FE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE24C57F1CF18AF000E4FE3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE24C5811CF18AF000E4FE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE24C5861CF18AF000E4FE3E /* My hue tvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My hue tvTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE24C58A1CF18AF000E4FE3E /* My_hue_tvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_hue_tvTests.swift; sourceTree = "<group>"; };
-		EE24C58C1CF18AF000E4FE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE24C5911CF18AF000E4FE3E /* My hue tvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My hue tvUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE24C5951CF18AF000E4FE3E /* My_hue_tvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_hue_tvUITests.swift; sourceTree = "<group>"; };
-		EE24C5971CF18AF000E4FE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		EE24C5721CF18AEF00E4FE3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE24C5831CF18AF000E4FE3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE24C58E1CF18AF000E4FE3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		EE24C56C1CF18AEF00E4FE3E = {
-			isa = PBXGroup;
-			children = (
-				EE24C5771CF18AEF00E4FE3E /* My hue tv */,
-				EE24C5891CF18AF000E4FE3E /* My hue tvTests */,
-				EE24C5941CF18AF000E4FE3E /* My hue tvUITests */,
-				EE24C5761CF18AEF00E4FE3E /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		EE24C5761CF18AEF00E4FE3E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EE24C5751CF18AEF00E4FE3E /* My hue tv.app */,
-				EE24C5861CF18AF000E4FE3E /* My hue tvTests.xctest */,
-				EE24C5911CF18AF000E4FE3E /* My hue tvUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EE24C5771CF18AEF00E4FE3E /* My hue tv */ = {
-			isa = PBXGroup;
-			children = (
-				EE24C5781CF18AEF00E4FE3E /* AppDelegate.swift */,
-				EE24C57A1CF18AF000E4FE3E /* ViewController.swift */,
-				EE24C57C1CF18AF000E4FE3E /* Main.storyboard */,
-				EE24C57F1CF18AF000E4FE3E /* Assets.xcassets */,
-				EE24C5811CF18AF000E4FE3E /* Info.plist */,
-			);
-			path = "My hue tv";
-			sourceTree = "<group>";
-		};
-		EE24C5891CF18AF000E4FE3E /* My hue tvTests */ = {
-			isa = PBXGroup;
-			children = (
-				EE24C58A1CF18AF000E4FE3E /* My_hue_tvTests.swift */,
-				EE24C58C1CF18AF000E4FE3E /* Info.plist */,
-			);
-			path = "My hue tvTests";
-			sourceTree = "<group>";
-		};
-		EE24C5941CF18AF000E4FE3E /* My hue tvUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EE24C5951CF18AF000E4FE3E /* My_hue_tvUITests.swift */,
-				EE24C5971CF18AF000E4FE3E /* Info.plist */,
-			);
-			path = "My hue tvUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		EE24C5741CF18AEF00E4FE3E /* My hue tv */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE24C59A1CF18AF000E4FE3E /* Build configuration list for PBXNativeTarget "My hue tv" */;
-			buildPhases = (
-				EE24C5711CF18AEF00E4FE3E /* Sources */,
-				EE24C5721CF18AEF00E4FE3E /* Frameworks */,
-				EE24C5731CF18AEF00E4FE3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "My hue tv";
-			productName = "My hue tv";
-			productReference = EE24C5751CF18AEF00E4FE3E /* My hue tv.app */;
-			productType = "com.apple.product-type.application";
-		};
-		EE24C5851CF18AF000E4FE3E /* My hue tvTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE24C59D1CF18AF000E4FE3E /* Build configuration list for PBXNativeTarget "My hue tvTests" */;
-			buildPhases = (
-				EE24C5821CF18AF000E4FE3E /* Sources */,
-				EE24C5831CF18AF000E4FE3E /* Frameworks */,
-				EE24C5841CF18AF000E4FE3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE24C5881CF18AF000E4FE3E /* PBXTargetDependency */,
-			);
-			name = "My hue tvTests";
-			productName = "My hue tvTests";
-			productReference = EE24C5861CF18AF000E4FE3E /* My hue tvTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EE24C5901CF18AF000E4FE3E /* My hue tvUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE24C5A01CF18AF000E4FE3E /* Build configuration list for PBXNativeTarget "My hue tvUITests" */;
-			buildPhases = (
-				EE24C58D1CF18AF000E4FE3E /* Sources */,
-				EE24C58E1CF18AF000E4FE3E /* Frameworks */,
-				EE24C58F1CF18AF000E4FE3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE24C5931CF18AF000E4FE3E /* PBXTargetDependency */,
-			);
-			name = "My hue tvUITests";
-			productName = "My hue tvUITests";
-			productReference = EE24C5911CF18AF000E4FE3E /* My hue tvUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		EE24C56D1CF18AEF00E4FE3E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = KineticSDK;
-				TargetAttributes = {
-					EE24C5741CF18AEF00E4FE3E = {
-						CreatedOnToolsVersion = 7.3;
-					};
-					EE24C5851CF18AF000E4FE3E = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = EE24C5741CF18AEF00E4FE3E;
-					};
-					EE24C5901CF18AF000E4FE3E = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = EE24C5741CF18AEF00E4FE3E;
-					};
-				};
-			};
-			buildConfigurationList = EE24C5701CF18AEF00E4FE3E /* Build configuration list for PBXProject "My hue tv" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = EE24C56C1CF18AEF00E4FE3E;
-			productRefGroup = EE24C5761CF18AEF00E4FE3E /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				EE24C5741CF18AEF00E4FE3E /* My hue tv */,
-				EE24C5851CF18AF000E4FE3E /* My hue tvTests */,
-				EE24C5901CF18AF000E4FE3E /* My hue tvUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		EE24C5731CF18AEF00E4FE3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE24C5801CF18AF000E4FE3E /* Assets.xcassets in Resources */,
-				EE24C57E1CF18AF000E4FE3E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE24C5841CF18AF000E4FE3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE24C58F1CF18AF000E4FE3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		EE24C5711CF18AEF00E4FE3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE24C57B1CF18AF000E4FE3E /* ViewController.swift in Sources */,
-				EE24C5791CF18AEF00E4FE3E /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE24C5821CF18AF000E4FE3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE24C58B1CF18AF000E4FE3E /* My_hue_tvTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE24C58D1CF18AF000E4FE3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE24C5961CF18AF000E4FE3E /* My_hue_tvUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EE24C5881CF18AF000E4FE3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE24C5741CF18AEF00E4FE3E /* My hue tv */;
-			targetProxy = EE24C5871CF18AF000E4FE3E /* PBXContainerItemProxy */;
-		};
-		EE24C5931CF18AF000E4FE3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE24C5741CF18AEF00E4FE3E /* My hue tv */;
-			targetProxy = EE24C5921CF18AF000E4FE3E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EE24C57C1CF18AF000E4FE3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE24C57D1CF18AF000E4FE3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		EE24C5981CF18AF000E4FE3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = appletvos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		EE24C5991CF18AF000E4FE3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EE24C59B1CF18AF000E4FE3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "My hue tv/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.My-hue-tv";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		EE24C59C1CF18AF000E4FE3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "My hue tv/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.My-hue-tv";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		EE24C59E1CF18AF000E4FE3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "My hue tvTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.My-hue-tvTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My hue tv.app/My hue tv";
-			};
-			name = Debug;
-		};
-		EE24C59F1CF18AF000E4FE3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "My hue tvTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.My-hue-tvTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My hue tv.app/My hue tv";
-			};
-			name = Release;
-		};
-		EE24C5A11CF18AF000E4FE3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "My hue tvUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.My-hue-tvUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "My hue tv";
-			};
-			name = Debug;
-		};
-		EE24C5A21CF18AF000E4FE3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "My hue tvUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kine.My-hue-tvUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "My hue tv";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		EE24C5701CF18AEF00E4FE3E /* Build configuration list for PBXProject "My hue tv" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE24C5981CF18AF000E4FE3E /* Debug */,
-				EE24C5991CF18AF000E4FE3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE24C59A1CF18AF000E4FE3E /* Build configuration list for PBXNativeTarget "My hue tv" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE24C59B1CF18AF000E4FE3E /* Debug */,
-				EE24C59C1CF18AF000E4FE3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		EE24C59D1CF18AF000E4FE3E /* Build configuration list for PBXNativeTarget "My hue tvTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE24C59E1CF18AF000E4FE3E /* Debug */,
-				EE24C59F1CF18AF000E4FE3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		EE24C5A01CF18AF000E4FE3E /* Build configuration list for PBXNativeTarget "My hue tvUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE24C5A11CF18AF000E4FE3E /* Debug */,
-				EE24C5A21CF18AF000E4FE3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = EE24C56D1CF18AEF00E4FE3E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>40AF2D686516F59BCF58ADC7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9E55602725318F0585C0536F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>592ACD5AC3038D922ED3660A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>669A4F297DE82FF4AD7F550F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-My hue tv.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-My hue tv/Pods-My hue tv.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86CCB7304F959A7BC80CEFD9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-My hue tv.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-My hue tv/Pods-My hue tv.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>93CB80FCD4B74DC84BA5190B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>669A4F297DE82FF4AD7F550F</string>
+				<string>86CCB7304F959A7BC80CEFD9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>963C920CC0B51188D13E1CD9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-My hue tv/Pods-My hue tv-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>9E55602725318F0585C0536F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_My_hue_tv.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BB5B616CE61467D86621152C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9E55602725318F0585C0536F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E059B2E2EE6AC0D0875D8860</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-My hue tv/Pods-My hue tv-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C56C1CF18AEF00E4FE3E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE24C5771CF18AEF00E4FE3E</string>
+				<string>EE24C5891CF18AF000E4FE3E</string>
+				<string>EE24C5941CF18AF000E4FE3E</string>
+				<string>EE24C5761CF18AEF00E4FE3E</string>
+				<string>93CB80FCD4B74DC84BA5190B</string>
+				<string>BB5B616CE61467D86621152C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C56D1CF18AEF00E4FE3E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>KineticSDK</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>EE24C5741CF18AEF00E4FE3E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+					</dict>
+					<key>EE24C5851CF18AF000E4FE3E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>EE24C5741CF18AEF00E4FE3E</string>
+					</dict>
+					<key>EE24C5901CF18AF000E4FE3E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3</string>
+						<key>TestTargetID</key>
+						<string>EE24C5741CF18AEF00E4FE3E</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>EE24C5701CF18AEF00E4FE3E</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>EE24C56C1CF18AEF00E4FE3E</string>
+			<key>productRefGroup</key>
+			<string>EE24C5761CF18AEF00E4FE3E</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>EE24C5741CF18AEF00E4FE3E</string>
+				<string>EE24C5851CF18AF000E4FE3E</string>
+				<string>EE24C5901CF18AF000E4FE3E</string>
+			</array>
+		</dict>
+		<key>EE24C5701CF18AEF00E4FE3E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EE24C5981CF18AF000E4FE3E</string>
+				<string>EE24C5991CF18AF000E4FE3E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EE24C5711CF18AEF00E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EE24C57B1CF18AF000E4FE3E</string>
+				<string>EE24C5791CF18AEF00E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C5721CF18AEF00E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>40AF2D686516F59BCF58ADC7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C5731CF18AEF00E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EE24C5801CF18AF000E4FE3E</string>
+				<string>EE24C57E1CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C5741CF18AEF00E4FE3E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EE24C59A1CF18AF000E4FE3E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>592ACD5AC3038D922ED3660A</string>
+				<string>EE24C5711CF18AEF00E4FE3E</string>
+				<string>EE24C5721CF18AEF00E4FE3E</string>
+				<string>EE24C5731CF18AEF00E4FE3E</string>
+				<string>963C920CC0B51188D13E1CD9</string>
+				<string>E059B2E2EE6AC0D0875D8860</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>My hue tv</string>
+			<key>productName</key>
+			<string>My hue tv</string>
+			<key>productReference</key>
+			<string>EE24C5751CF18AEF00E4FE3E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>EE24C5751CF18AEF00E4FE3E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>My hue tv.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EE24C5761CF18AEF00E4FE3E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE24C5751CF18AEF00E4FE3E</string>
+				<string>EE24C5861CF18AF000E4FE3E</string>
+				<string>EE24C5911CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C5771CF18AEF00E4FE3E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE24C5781CF18AEF00E4FE3E</string>
+				<string>EE24C57A1CF18AF000E4FE3E</string>
+				<string>EE24C57C1CF18AF000E4FE3E</string>
+				<string>EE24C57F1CF18AF000E4FE3E</string>
+				<string>EE24C5811CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>My hue tv</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C5781CF18AEF00E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C5791CF18AEF00E4FE3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE24C5781CF18AEF00E4FE3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE24C57A1CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C57B1CF18AF000E4FE3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE24C57A1CF18AF000E4FE3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE24C57C1CF18AF000E4FE3E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE24C57D1CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C57D1CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C57E1CF18AF000E4FE3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE24C57C1CF18AF000E4FE3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE24C57F1CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C5801CF18AF000E4FE3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE24C57F1CF18AF000E4FE3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE24C5811CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C5821CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EE24C58B1CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C5831CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C5841CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C5851CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EE24C59D1CF18AF000E4FE3E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>EE24C5821CF18AF000E4FE3E</string>
+				<string>EE24C5831CF18AF000E4FE3E</string>
+				<string>EE24C5841CF18AF000E4FE3E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>EE24C5881CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>My hue tvTests</string>
+			<key>productName</key>
+			<string>My hue tvTests</string>
+			<key>productReference</key>
+			<string>EE24C5861CF18AF000E4FE3E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>EE24C5861CF18AF000E4FE3E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>My hue tvTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EE24C5871CF18AF000E4FE3E</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>EE24C56D1CF18AEF00E4FE3E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EE24C5741CF18AEF00E4FE3E</string>
+			<key>remoteInfo</key>
+			<string>My hue tv</string>
+		</dict>
+		<key>EE24C5881CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>EE24C5741CF18AEF00E4FE3E</string>
+			<key>targetProxy</key>
+			<string>EE24C5871CF18AF000E4FE3E</string>
+		</dict>
+		<key>EE24C5891CF18AF000E4FE3E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE24C58A1CF18AF000E4FE3E</string>
+				<string>EE24C58C1CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>My hue tvTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C58A1CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>My_hue_tvTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C58B1CF18AF000E4FE3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE24C58A1CF18AF000E4FE3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE24C58C1CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C58D1CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EE24C5961CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C58E1CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C58F1CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EE24C5901CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EE24C5A01CF18AF000E4FE3E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>EE24C58D1CF18AF000E4FE3E</string>
+				<string>EE24C58E1CF18AF000E4FE3E</string>
+				<string>EE24C58F1CF18AF000E4FE3E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>EE24C5931CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>My hue tvUITests</string>
+			<key>productName</key>
+			<string>My hue tvUITests</string>
+			<key>productReference</key>
+			<string>EE24C5911CF18AF000E4FE3E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>EE24C5911CF18AF000E4FE3E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>My hue tvUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EE24C5921CF18AF000E4FE3E</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>EE24C56D1CF18AEF00E4FE3E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>EE24C5741CF18AEF00E4FE3E</string>
+			<key>remoteInfo</key>
+			<string>My hue tv</string>
+		</dict>
+		<key>EE24C5931CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>EE24C5741CF18AEF00E4FE3E</string>
+			<key>targetProxy</key>
+			<string>EE24C5921CF18AF000E4FE3E</string>
+		</dict>
+		<key>EE24C5941CF18AF000E4FE3E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE24C5951CF18AF000E4FE3E</string>
+				<string>EE24C5971CF18AF000E4FE3E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>My hue tvUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C5951CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>My_hue_tvUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C5961CF18AF000E4FE3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EE24C5951CF18AF000E4FE3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EE24C5971CF18AF000E4FE3E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE24C5981CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>appletvos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>3</string>
+				<key>TVOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EE24C5991CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>appletvos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>3</string>
+				<key>TVOS_DEPLOYMENT_TARGET</key>
+				<string>9.2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>EE24C59A1CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EE24C59B1CF18AF000E4FE3E</string>
+				<string>EE24C59C1CF18AF000E4FE3E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EE24C59B1CF18AF000E4FE3E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>669A4F297DE82FF4AD7F550F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>App Icon &amp; Top Shelf Image</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>INFOPLIST_FILE</key>
+				<string>My hue tv/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kine.My-hue-tv</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EE24C59C1CF18AF000E4FE3E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>86CCB7304F959A7BC80CEFD9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>App Icon &amp; Top Shelf Image</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>INFOPLIST_FILE</key>
+				<string>My hue tv/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kine.My-hue-tv</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>EE24C59D1CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EE24C59E1CF18AF000E4FE3E</string>
+				<string>EE24C59F1CF18AF000E4FE3E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EE24C59E1CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>My hue tvTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kine.My-hue-tvTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/My hue tv.app/My hue tv</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EE24C59F1CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>My hue tvTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kine.My-hue-tvTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/My hue tv.app/My hue tv</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>EE24C5A01CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>EE24C5A11CF18AF000E4FE3E</string>
+				<string>EE24C5A21CF18AF000E4FE3E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EE24C5A11CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>My hue tvUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kine.My-hue-tvUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>My hue tv</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>EE24C5A21CF18AF000E4FE3E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>My hue tvUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.kine.My-hue-tvUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>My hue tv</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>EE24C56D1CF18AEF00E4FE3E</string>
+</dict>
+</plist>
