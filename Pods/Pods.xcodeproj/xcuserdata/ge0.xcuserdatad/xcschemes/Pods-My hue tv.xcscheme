@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6B27FF56654820880682D1E0'
+               BlueprintIdentifier = '9C4E68B8391B24709BAEF488'
                BlueprintName = 'Pods-My hue tv'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_My_hue_tv.framework'>

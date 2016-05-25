@@ -18,16 +18,18 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func getClientAuthInBridge() {
-        Alamofire.request(.GET, "http://httpbin.org/get", parameters: ["foo": "bar"])
+        let url = Commons.baseUrl
+        let params = ["devicetype": "my_hue_app#iphone peter"]
+      
+        Alamofire.request(.POST, url, parameters:params, encoding:.JSON )
             .responseJSON { response in
                 print(response.request)  // original URL request
                 print(response.response) // URL response
                 print(response.data)     // server data
-                print(response.result)   // result of response serialization
+                print( response.result)   // result of response serialization
                 
                 if let JSON = response.result.value {
                     print("JSON: \(JSON)")
